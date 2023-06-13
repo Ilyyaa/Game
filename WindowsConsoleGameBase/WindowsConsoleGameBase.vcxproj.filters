@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Examples">
       <UniqueIdentifier>{d4b97f01-b61a-4531-a9b5-ad562bc7c946}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Tetris">
+      <UniqueIdentifier>{c2c817cb-6d8c-475a-9835-1ec9f5a5a2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tetris">
+      <UniqueIdentifier>{94afcf7b-4396-4268-a0c0-52ef7eea3c47}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,6 +54,18 @@
     <ClCompile Include="ExampleGame.cpp">
       <Filter>Source Files\Examples</Filter>
     </ClCompile>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="GameField.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="IBlock.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h">
@@ -67,6 +85,18 @@
     </ClInclude>
     <ClInclude Include="ExampleGame.h">
       <Filter>Header Files\Examples</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetris.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="GameField.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlock.h">
+      <Filter>Header Files\Tetris</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
